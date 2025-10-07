@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home - Demi's Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                font-family: "Lato", sans-serif;
+                background-color: #7162ff;
+            }
+            .sidenav {
+                height: 100%;
+                width: 150px;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: #2a0079;
+                overflow-x: hidden;
+                padding-top: 20px;
+            }
+            .sidenav img {
+                width: 80px;
+                height: 80px;
+                float: top;
+                display: block;
+                image-rendering: pixelated;
+                image-rendering: -moz-crisp-edges;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .sidenav a {
+                text-decoration: none;
+                font-size: 25px;
+                color: #818181;
+                display: block;
+                text-align: center;
+            }
+            .sidenav a:hover {
+                color: #f1f1f1;
+            }
+            .main {
+                margin-left: 150px;
+                font-size: 28px;
+                padding: 0px 10px;
+            }
+            @media screen and (max-height: 450px) {
+                .sidenav {padding-top: 15px;}
+                .sidenav img {width: 40px; height: 40px;}
+                .sidenav a {font-size: 18px;}
+            }
+        </style>
+    </head>
+    <body>
+        <div class="sidenav">
+            <a href="./index.html"><img src="./images/sidenav/home.png">Home</a>
+            <a href="./about.html"><img src="./images/sidenav/about.png">About Me</a>
+        </div>
+
+        <div class="main">
+            <h2>Welcome to my site!</h2>
+            <p>This is still very much W.I.P.</p>
+            <p>Thanks for checking it out tho!</p>
+        </div>
+    </body>
+</html>
